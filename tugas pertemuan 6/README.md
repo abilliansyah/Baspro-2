@@ -59,7 +59,13 @@ Setiap elemen di `hasil[i][j]` dihitung dengan rumus:
 
 ```python
 hasil[i][j] = A[i][0]*B[0][j] + A[i][1]*B[1][j] + ... + A[i][4]*B[4][j]
-``
+```
+## 🖨️ Menampilkan Hasil
+Bagian ini mencetak setiap baris dari matriks hasil:
+```python
+for row in hasil:
+    print(row)
+```
 ## 🧮Output
 Program akan menampilkan hasil perkalian matriks `A` dan `B`, dalam bentuk matriks 5x5.
 
@@ -73,4 +79,9 @@ Contoh output:
 [1535, 1750, 1965, 2180, 2395]
 ```
 
+
+## 🧠 Singkatnya:
+* Kode ini mengimplementasikan perkalian matriks 5x5 menggunakan nested loop.
+* Prosesnya mengikuti aturan perkalian baris-kolom antara dua matriks.
+* Hasil akhir adalah matriks baru berukuran 5x5 yang merupakan hasil perkalian A dan B.
 
